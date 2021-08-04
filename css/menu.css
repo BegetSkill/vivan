@@ -1,9 +1,6 @@
 nav#site-navigation {
 	text-align: left;
 }
-button.menu-toggle {
-	display: none;
-}
 .main-navigation ul, .main-navigation .nav-menu {
 	margin: 0;
 	padding: 0;
@@ -166,39 +163,9 @@ button.menu-toggle {
 	right: 0;
 }
 
-/*=========================================================*/
-/* logo                                                    */
-/*=========================================================*/
-
-.site-branding .site-logo {
-	margin-right: 5px;
-}
-.site-branding h1.site-title {
-	font-family: 'Open Sans', sans-serif; 
-	font-weight: 600;
-	line-height: 28px;
-}
-.site-branding, nav.main-navigation{
-	display: inline-block;
-	vertical-align: middle;
-}
-.site-branding {
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.site-branding .site-logo, .site-branding  .site-text{
-	display: inline-block;
-	vertical-align: middle;
-}
-h1.site-title, .site-description {
-	margin: 0;
-}
-.site-branding p.site-description {
-	font-size: 13px;
-}
-
 .menucantainer
 {
-    background: url('../img/menu_bg.JPG');
-	background-repeat: no-repeat;
+   /* background: url('../img/menu_bg.JPG');*/
+   background-color: rgba(246,248,247,255);
+	background-repeat: repeat-x;
 }

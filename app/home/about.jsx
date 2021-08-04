@@ -3,11 +3,11 @@ import React from 'react';
 export class AboutComponent extends React.Component {
     render() {
         return (
-            <div className="row row-eq-height">
-                <div className="col-5">
-                    <img className="img-fluid" src="img/doctor-563429_1921.jpg" />
+            <div className="row about">
+                <div className="col-auto p-4">
+                    <img className="img-fluid" src="img/other/injection.jpg" />
                 </div>
-                <div className="col-7 p-4 about">
+                <div className="col p-4">
                     <h2 className="h2">
                         About Us
                     </h2>
