@@ -9,9 +9,8 @@ class AppComponent extends React.Component {
     render() {
         return (
             <div className="row">
-                <HeaderComponent />
                 <MenuComponent />
-                <ContentComponent />                
+                <ContentComponent />
                 <FooterComponent />
             </div>
         )

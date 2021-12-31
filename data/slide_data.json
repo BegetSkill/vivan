@@ -1,0 +1,45 @@
+{
+    "name": "datareterived",
+    "slideList": [
+        {
+            "heading": "First slide label",
+            "para": "Some representative placeholder content for the first slide.",
+            "imagePath": "img/slide/1.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/2.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/3.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/6.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/8.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/9.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/slide02.jpg"
+        },
+        {
+            "heading": "Second slide label",
+            "para": "Some representative placeholder content for the second slide.",
+            "imagePath": "img/slide/slide04.jpg"
+        }
+    ]
+}
