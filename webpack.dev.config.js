@@ -9,7 +9,7 @@ module.exports = {
         index: exeDirpath + "\\app\\app.jsx"
     },
     output: {
-        filename: 'index.js',
+        filename: 'main.js',
         path: path.resolve(exeDirpath, 'dist')
     },
     resolve: {
