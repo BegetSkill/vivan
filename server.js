@@ -1,12 +1,14 @@
 const open = require('open');
 const express = require('express');
 const app = express();
+const path = require('path');
+
 var url = "";
 
 var server = function () {
 
     function configServer(port) {
-        url = `http://localhost:${port}/home`;
+        url = `http://localhost:${port}`;
         app.listen(port, () => {
             console.log(`vivan app listening at http://localhost:${port}`);
         });
@@ -20,13 +22,16 @@ var server = function () {
     }
 
     function routing() {
-        app.get('/', (req, res) => {
-            res.send('Welcome on vivan site');
-        })
 
-        app.get('/home', (req, res) => {
-            console.log(`name dir ${__dirname}`);
-            res.sendFile('index.html', { root: __dirname });
+        /* app.get('/', (req, res) => {
+             res.sendFile('index.html', { root: __dirname });
+         });*/
+
+        app.use(express.static(__dirname));
+
+
+        app.get('*', (req, res) => {
+            res.sendFile(path.join(__dirname + '/index.html'));
         });
     }
 

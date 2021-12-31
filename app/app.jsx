@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { HeaderComponent } from './shared/header/headercomponent';
 import { MenuComponent } from './shared/menu/menucomponent';
 import { FooterComponent } from './shared/footer/footer';
 import { ContentComponent } from './shared/content/contentcomponent';

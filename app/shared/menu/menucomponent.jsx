@@ -21,7 +21,7 @@ export class MenuComponent extends React.Component {
                         <div className="menu-menu-1-container">
                             <ul id="primary-menu" className="menu nav-menu" aria-expanded="false">
                                 <li id="menu-item-11" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11" aria-haspopup="true">
-                                    <a href="#" aria-current="page">Home</a>
+                                    <a href="/home">Home</a>
                                 </li>
                                 <li id="menu-item-122" className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-122" aria-haspopup="true">
                                     <a href="##">Products <i className="fas fa-angle-down"></i></a>
@@ -111,16 +111,17 @@ export class MenuComponent extends React.Component {
                                     <a href="#">News</a>
                                 </li>
                                 <li id="menu-item-138" className="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-138">
-                                    <a href="#">Queries</a>
+                                    <a href="/Query">Query</a>
                                 </li>
                                 <li id="menu-item-12" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
-                                    <a href="#">Contact</a></li>
+                                    <a href="#">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
                 <div className="col-xs-12 col-md-2 text-center pt-3">
-                    <i class="fas fa-phone-alt fa-lg"></i>
+                    <i className="fas fa-phone-alt fa-lg"></i>
                     <i> +91-120-098-098</i>
                 </div>
             </div >
